@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37F4E2EF2896D3D100C7DE86 /* MassNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */; };
-		37F4E2F12896D3D100C7DE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4E2F02896D3D100C7DE86 /* ContentView.swift */; };
+		37F4E2F12896D3D100C7DE86 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4E2F02896D3D100C7DE86 /* Intro.swift */; };
 		37F4E2F32896D3D300C7DE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4E2F22896D3D300C7DE86 /* Assets.xcassets */; };
 		37F4E2F62896D3D300C7DE86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4E2F52896D3D300C7DE86 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		37F4E2EB2896D3D100C7DE86 /* MassNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassNotesApp.swift; sourceTree = "<group>"; };
-		37F4E2F02896D3D100C7DE86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37F4E2F02896D3D100C7DE86 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		37F4E2F22896D3D300C7DE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F4E2F52896D3D300C7DE86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */,
-				37F4E2F02896D3D100C7DE86 /* ContentView.swift */,
+				37F4E2F02896D3D100C7DE86 /* Intro.swift */,
 				37F4E2F22896D3D300C7DE86 /* Assets.xcassets */,
 				37F4E2F42896D3D300C7DE86 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F4E2F12896D3D100C7DE86 /* ContentView.swift in Sources */,
+				37F4E2F12896D3D100C7DE86 /* Intro.swift in Sources */,
 				37F4E2EF2896D3D100C7DE86 /* MassNotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
