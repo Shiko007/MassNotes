@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MassNotesApp: App {
+    @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
-            Intro()
+            Launch()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

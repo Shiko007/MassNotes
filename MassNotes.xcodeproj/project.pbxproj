@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373EAA592896FEBD005F40C1 /* MassNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA572896FEBD005F40C1 /* MassNotes.xcdatamodeld */; };
+		373EAA5B2896FF45005F40C1 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA5A2896FF45005F40C1 /* DataController.swift */; };
+		373EAA5D289703FD005F40C1 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA5C289703FD005F40C1 /* Launch.swift */; };
+		373EAA5F28972561005F40C1 /* MuscleGroupsPerDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA5E28972561005F40C1 /* MuscleGroupsPerDay.swift */; };
 		37F4E2EF2896D3D100C7DE86 /* MassNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */; };
 		37F4E2F12896D3D100C7DE86 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4E2F02896D3D100C7DE86 /* Intro.swift */; };
 		37F4E2F32896D3D300C7DE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4E2F22896D3D300C7DE86 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373EAA582896FEBD005F40C1 /* MassNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MassNotes.xcdatamodel; sourceTree = "<group>"; };
+		373EAA5A2896FF45005F40C1 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		373EAA5C289703FD005F40C1 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		373EAA5E28972561005F40C1 /* MuscleGroupsPerDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupsPerDay.swift; sourceTree = "<group>"; };
 		37F4E2EB2896D3D100C7DE86 /* MassNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassNotesApp.swift; sourceTree = "<group>"; };
 		37F4E2F02896D3D100C7DE86 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
@@ -51,8 +59,12 @@
 		37F4E2ED2896D3D100C7DE86 /* MassNotes */ = {
 			isa = PBXGroup;
 			children = (
+				373EAA572896FEBD005F40C1 /* MassNotes.xcdatamodeld */,
+				373EAA5A2896FF45005F40C1 /* DataController.swift */,
 				37F4E2EE2896D3D100C7DE86 /* MassNotesApp.swift */,
+				373EAA5C289703FD005F40C1 /* Launch.swift */,
 				37F4E2F02896D3D100C7DE86 /* Intro.swift */,
+				373EAA5E28972561005F40C1 /* MuscleGroupsPerDay.swift */,
 				37F4E2F22896D3D300C7DE86 /* Assets.xcassets */,
 				37F4E2F42896D3D300C7DE86 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37F4E2F12896D3D100C7DE86 /* Intro.swift in Sources */,
+				373EAA5F28972561005F40C1 /* MuscleGroupsPerDay.swift in Sources */,
+				373EAA5B2896FF45005F40C1 /* DataController.swift in Sources */,
 				37F4E2EF2896D3D100C7DE86 /* MassNotesApp.swift in Sources */,
+				373EAA5D289703FD005F40C1 /* Launch.swift in Sources */,
+				373EAA592896FEBD005F40C1 /* MassNotes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		373EAA572896FEBD005F40C1 /* MassNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				373EAA582896FEBD005F40C1 /* MassNotes.xcdatamodel */,
+			);
+			currentVersion = 373EAA582896FEBD005F40C1 /* MassNotes.xcdatamodel */;
+			path = MassNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 37F4E2E32896D3D100C7DE86 /* Project object */;
 }
