@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct Intro: View {
+    
+    @Environment(\.managedObjectContext) var managedObjectContext
+    @FetchRequest(sortDescriptors: []) var appState : FetchedResults<AppState>
     @State var days : Int = 1
+    
     var body: some View {
         NavigationView {
             VStack{
@@ -46,7 +50,16 @@ struct Intro: View {
                     Spacer()
                     NavigationLink(destination: MuscleGroupsPerDay()) {
                         Text("Next").font(.title).dynamicTypeSize(/*@START_MENU_TOKEN@*/.xLarge/*@END_MENU_TOKEN@*/).padding().foregroundColor(.black)
-                    }.padding().background(.gray).clipShape(Capsule())
+                    }
+                    .background(.gray).clipShape(RoundedRectangle(cornerRadius: 10))
+                    .simultaneousGesture(TapGesture().onEnded{
+                        if appState.count != 0{
+                            AppStateHandler().editAppState(appState: appState[0], isIntro: false, context: managedObjectContext)
+                        }
+                        else{
+                            AppStateHandler().addAppState(isIntro: false, context: managedObjectContext)
+                        }
+                    })
                     Spacer()
                 }
                 Spacer()
@@ -55,13 +68,7 @@ struct Intro: View {
     }
 }
 
-struct MuscleGroupsPerDay: View {
-    var body: some View {
-        Spacer()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
+struct Intro_Previews: PreviewProvider {
     static var previews: some View {
         Intro()
     }
